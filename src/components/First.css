@@ -1,0 +1,70 @@
+/* syntax for creating style rule */
+/* selector   , element  class id
+{
+property : value
+*/
+
+
+div{
+/* background-color: aqua; */
+   /* font-family: Georgia, 'Times New Roman', Times, serif;  */
+   /* font-style: italic; */
+   font-weight: 600;
+   width: 80%;
+   height: 80%;
+   display: inline-block; 
+   /* display: inline; */
+   padding: 20px;
+   margin: 5px;
+   border:2px solid red;
+   /* font-family: "Martel Sans", sans-serif; */
+   font-weight: 200;
+  }
+
+  .martel-sans-bold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+h1
+{
+    width: 500px;
+background-color: brown;
+font-size: xx-large;
+color: blue;
+border: 3px dotted gray;
+opacity: 0.9;
+border-radius: 5px;
+}
+p{
+    text-align: justify;
+    text-align-last: right;
+    /* direction: rtl; */
+    /* text-decoration-line: overline; */
+    /* text-transform: uppercase; */
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+/* if  you want to apply same style on more than
+1 element, we shud create class*/
+
+.class1
+{
+    background-color: green;
+}
+
+#id1
+{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
